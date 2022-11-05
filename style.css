@@ -1,0 +1,61 @@
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html { font-family: Arial, Helvetica; }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+
+
+/* start navbar */
+
+body {
+    display: flex;
+    gap: 40px;
+    margin: 0px 10px 10px 0 ;
+}
+
+header {
+    border-right: 4px solid gray;
+}
+
+/* header title */
+
+.header-title {
+    padding: 10px 20px 20px 20px;
+    width: 260px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    width: 260px;
+}
+
+.navbar-list ul{
+    list-style-type: none;
+    display: contents;
+}
+
+.navbar-list li {
+    padding: 10px 20px 10px;
+    border-bottom: 1px solid black;
+}
+
+.navbar-list li a {
+    transition: 0.25s ease;
+}
+
+.navbar-list li a:hover {
+    color: rgba(68, 68, 68, 0.5);
+}
